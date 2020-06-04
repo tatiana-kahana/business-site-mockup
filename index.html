@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Site-UP</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <i class="las la-chart-bar"></i>
+                Site-UP</a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- shocase slider -->
+    <section id="showcase">
+        <div id="myCorousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCorousel" class="active" data-slide-to="0"></li>
+                <li data-target="#myCorousel" data-slide-to="1"></li>
+                <li data-target="#myCorousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                            <h1 class="display-3">Heading One</h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita totam quaerat
+                                reprehenderit earum sunt temporibus blanditiis laboriosam debitis possimus? Accusamus!
+                            </p>
+                            <a href="#" class="btn btn-dark btn-lg">Sign Up Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h1 class="display-3">Heading Two</h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita totam quaerat
+                                reprehenderit earum sunt temporibus blanditiis laboriosam debitis possimus? Accusamus!
+                            </p>
+                            <a href="#" class="btn btn-info btn-lg">Lern more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3">Heading Three</h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita totam quaerat
+                                reprehenderit earum sunt temporibus blanditiis laboriosam debitis possimus? Accusamus!
+                            </p>
+                            <a href="#" class="btn btn-light btn-lg">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#myCorousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#myCorousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <!-- home icon section -->
+    <section id="home-icons" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="las la-cogs la-3x"></i>
+                    <h3>Turning Gears</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veritatis?</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="las la-cloud la-3x"></i>
+                    <h3>Analize Data</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veritatis?</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="las la-cart-plus la-3x"></i>
+                    <h3>Making Money</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veritatis?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home heading section -->
+    <section id="home-heading" class="p-5">
+        <div class="container">
+            <div class="dark-overlay"></div>
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>Are you ready to get started?</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                            excepturi dicta voluptatum, ullam a magnam consectetur blanditiis! Consequatur, quisquam ut!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- info-section -->
+    <section id="info" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quam ipsa cum libero
+                        reprehenderit laudantium voluptatibus dolorum dolor fugit quis.</p>
+
+                    <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/bg3.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section id="video-play">
+        <div class="dark-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="container py-5">
+                        <a href="#" class="video" data-video="https://www.youtube.com/embed/M4_x75M0S3Q"
+                            data-toggle="modal" data-target="#videoModal">
+                            <i class="las la-play-circle la-3x"></i>
+                        </a>
+                        <h1>See Why SEO Is Important?</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- photo-galery -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h1 class="text-center">Photo Gallery</h1>
+            <p class="text-center">Check out our photos</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://picsum.photos/560" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-hight="560" data-width="560">
+                        <img src="https://picsum.photos/560" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://picsum.photos/561" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-hight="561" data-width="561">
+                        <img src="https://picsum.photos/561" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://picsum.photos/562" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-hight="562" data-width="562">
+                        <img src="https://picsum.photos/562" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://picsum.photos/563" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-hight="563" data-width="563">
+                        <img src="https://picsum.photos/563" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://picsum.photos/564" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-hight="564" data-width="564">
+                        <img src="https://picsum.photos/564" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://picsum.photos/565" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-hight="565" data-width="565">
+                        <img src="https://picsum.photos/565" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- news-letter -->
+    <section id="newlwtter" class="text-center p-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Sign For Our Newsletter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consequatur iusto esse sint
+                        ipsum aliquid quaerat non alias qui quis?
+                    </p>
+                    <form action="" class="form-inline justify-content-center">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+                        <button class="btn btn-primary mb-2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">Copyright &copy; <span id="year">
+                    </span> Site-UP
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- video modal -->
+    <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                    <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script>
+
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        // configure slider
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: 'hover'
+        });
+
+        // lightbox Init
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+        // Video Play
+        $(function () {
+            // Auto play modal video
+            $(".video").click(function () {
+                var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-video"),
+                    videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.close').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
