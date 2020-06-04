@@ -103,6 +103,7 @@ border-left:#444 3px solid
 #main-footer {
     background: #000;
     color: #fff;
+    
 }
 
 @media(max-width: 570px) {
